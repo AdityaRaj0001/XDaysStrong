@@ -1,7 +1,7 @@
 # XDaysStrong
 
-<img src="https://github.com/user-attachments/assets/cb358e9e-7f8b-4d7a-8715-bf1944f73783"  height="200" />
-<img src="https://github.com/user-attachments/assets/e44d9764-f56b-4209-9d63-60dd75bb1f04"  height="200" />
+<img src="https://github.com/user-attachments/assets/cb358e9e-7f8b-4d7a-8715-bf1944f73783"  height="300" />
+<img src="https://github.com/user-attachments/assets/e44d9764-f56b-4209-9d63-60dd75bb1f04"  height="300" />
 
 ## Overview
 
