@@ -20,3 +20,14 @@ body {
   font-family: "Roboto Mono", serif;
   font-optical-sizing: auto;
 }
+
+
+.center-toast {
+    position: fixed !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    max-width: 90%;
+    text-align: center;
+  }

@@ -70,7 +70,7 @@ function App() {
       });
     } else {
       toast({
-        title: "Come back tommorrow to retain your streak!",
+        title: "Come back tmmrrw!",
       });
     }
   };
@@ -112,9 +112,9 @@ function App() {
       )}
       <Button
         onClick={handleRetainStreak}
-        className="bg-red-500 absolute bottom-4 text-white p-2 rounded-lg"
+        className="bg-black border-2 border-red-400 absolute bottom-4 text-white p-2 rounded-lg"
       >
-        Retain Streak
+        I'm Here! 🚀
       </Button>
     </div>
   );
