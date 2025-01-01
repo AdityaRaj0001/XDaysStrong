@@ -86,20 +86,30 @@ function App() {
     default: "I GOT YOU!",
   };
 
-
   return (
     <div className="bg-black h-screen w-screen overflow-hidden max-w-xl mx-auto flex flex-col items-center justify-center">
       <Toaster />
-      <h1 className="text-white text-2xl absolute top-4 titleFont">
+      <h1 className="text-white text-lg px-2 text-center lg:text-2xl absolute top-4 titleFont">
         {streakDays} {streakDays > 1 ? "Days" : "Day"} Strong.{" "}
+        <br></br>
         {motivationMessages[streakDays] || motivationMessages.default}
       </h1>
-      <Lottie
-        animationData={streakDays === 0 ? animationData2 : animationData}
+
+      {streakDays > 0 ? (
+        <Lottie
+          animationData={animationData}
+          loop={true}
+          style={{ width: "20%", transform: `scale(${scale})` }}
+          className="relative bottom-12"
+        />
+      ) : (
+        <Lottie
+        animationData={animationData2}
         loop={true}
-        style={{ width: "20%", transform: `scale(${scale})` }}
+        style={{ width: "50%", transform: `scale(${scale})` }}
         className="relative bottom-12"
       />
+      )}
       <Button
         onClick={handleRetainStreak}
         className="bg-red-500 absolute bottom-4 text-white p-2 rounded-lg"
